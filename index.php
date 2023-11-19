@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-pt">
 
 <head>
     <meta charset="UTF-8">
@@ -11,12 +11,15 @@
 </head>
 
 <body>
-    <!-- Navbar -->
+
+    <!----------------------------------- Navbar ------------------------------------>
     <div class="header">
+        <!--------------- logo -------------------->
         <div class="logo">
             <img src="./img/bear.png">
             <div class="logo-name">BlueBerryBear</div>
         </div>
+        <!---------------- Links ---------------->
         <div class="navbar">
             <a href="/index.php">Home</a>
             <a href="/moedas.php">Moedas</a>
@@ -26,10 +29,10 @@
         </div>
     </div>
 
-    <!-- section 1 -->
+    <!------------------------------------ section 1 ------------------------------------->
     <div class="main-area">
+        <!------------------------------- Texto ------------------------------------->
 
-        <!-- Texto -->
         <div class="container-1">
             <div class="box-1">Invista em Criptomoedas</div>
             <div class="box-2">Investir em criptomoedas tem se destacado como uma alternativa atrativa e inovadora no mundo financeiro contemporâneo. As criptomoedas, como o Bitcoin e o Ethereum, representam uma mudança significativa no paradigma tradicional de investimentos.</div>
@@ -39,7 +42,7 @@
             </div>
         </div>
 
-        <!-- Bolhas -->
+        <!-------------------------------------- Bolhas ----------------------------------------->
         <div class="circles">
             <div></div>
             <div></div>
@@ -53,40 +56,48 @@
             <div></div>
         </div>
 
-        <!-- Bolhas -->
+        <!----------------------------------- Imagem --------------------------------------------->
+
         <div class="container-2">
             <img src="./img/cryptoPort.svg">
         </div>
     </div>
 
-    <!-- section 2 -->
+    <!------------------------------------------ section 2 --------------------------------------->
     <div class="section-2">
         <div class="sec2-box-1">Portfólios inteligentes</div>
         <div class="sec2-box-2">Com estratégias de investimento temáticas, através de uma exposição diversificada aos segmentos de mercado que moldarão as nossas vidas.</div>
 
+        <!------------------------- Slider to go through boxes ---------------------------------->
         <div class="Container">
+            <!---------- Texto ---------->
             <div class="box">
-                Estratégia: Escolha criptomoedas sólidas com fundamentos robustos. Mantenha os ativos mesmo durante períodos de volatilidade e correções de mercado. Esta estratégia é baseada na crença de que, ao longo do tempo, o valor das criptomoedas tende a aumentar devido à adoção mais ampla e ao desenvolvimento contínuo da tecnologia blockchain.
+                <span>Estratégia:</span> Escolha criptomoedas sólidas com fundamentos robustos. Mantenha os ativos
+                mesmo durante períodos de volatilidade e correções de mercado. Esta estratégia é baseada
+                na crença de que, ao longo do tempo, o valor das criptomoedas tende a aumentar devido à
+                adoção mais ampla e ao desenvolvimento contínuo da tecnologia blockchain.
             </div>
-            <div class="box">
-                Estratégia: Realize negociações de curto prazo, aproveitando as flutuações de preços ao longo do dia. Isso requer análise técnica, gráficos de preços e acompanhamento constante do mercado. Tenha em mente que o day trading exige um entendimento aprofundado do mercado e habilidades técnicas, e os riscos de perdas também são significativos.
-            </div>
-            <div class="box">
-                Estratégia: Em vez de concentrar seus investimentos em uma única criptomoeda, diversifique em várias altcoins (criptomoedas alternativas ao Bitcoin). Pesquise projetos com fundamentos sólidos e potencial de crescimento. Esteja ciente de que as altcoins podem ser mais voláteis e arriscadas do que o Bitcoin.
+            <!---------- Image ---------->
+            <div class="imgBox">
+                <span>Estratégia:</span> Escolha criptomoedas sólidas com fundamentos robustos. Mantenha os ativos
+                mesmo durante períodos de volatilidade e correções de mercado. Esta estratégia é baseada
+                na crença de que, ao longo do tempo, o valor das criptomoedas tende a aumentar devido à
+                adoção mais ampla e ao desenvolvimento contínuo da tecnologia blockchain.
             </div>
         </div>
-
     </div>
 
-    <!-- section 3 -->
+    <!---------------------------------------- section 3 ------------------------------------------------>
 
     <div class="footerContainer">
+        <!------------------------ social media icons  ----------------------------->
         <div class="socialIcon">
             <a href=""><i class="fa-brands fa-facebook"></i></a>
             <a href=""><i class="fa-brands fa-twitter"></i></a>
             <a href=""><i class="fa-brands fa-square-instagram"></i></a>
             <a href=""><i class="fa-brands fa-github"></i></a>
         </div>
+        <!---------------------------- links to next pages -------------------------------->
         <div class="footerNav">
             <ul>
                 <li> <a href="/index.php">Home</a></li>
@@ -99,7 +110,7 @@
     </div>
 
     <div class="footerBottom">
-        <p>Copyright &copy;2023; Designed by <span class="designer">Mateus</span></p>
+        <p>Copyright &copy;2023; Criado por <span class="designer">Mateus</span></p>
     </div>
 
 </body>
