@@ -8,7 +8,7 @@
 }
 
 body {
-    background: #110E1B;
+    background: #e2e2e2;
 }
 
 /* ===== navbar ===== */
@@ -46,11 +46,39 @@ body {
 }
 
 .navbar a {
+    position: relative;
     font-size: 18px;
     color: #fff;
     font-weight: 500;
     text-decoration: none;
     margin-left: 40px;
+}
+
+.navbar a::before {
+    content: "";
+    position: absolute;
+    background-color: white;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: 0.3s;
+}
+
+.navbar a:hover::before {
+    width: 100%;
+}
+
+.navbar a.active::before {
+    content: "";
+    position: absolute;
+    background-color: white;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: white;
 }
 
 
@@ -59,7 +87,7 @@ body {
 /* section 1 */
 
 .main-area {
-    background: linear-gradient(to bottom, #210734, #8428b3);
+    background: linear-gradient(to bottom, #1f1c61, #6C63FF);
     width: 100%;
     height: 100vh;
     display: flex;
@@ -93,13 +121,13 @@ body {
 
 .btn-investir input {
     width: 50%;
-    padding: 20px ;
-    background: #4d1b66;
+    padding: 20px;
+    background: #e7e7e7;
     font-weight: 700;
-    font-size: 23px;
-    color: white;
-    
-    box-shadow: 0px 5px 20px #4d1b66;
+    font-size: 27px;
+    color: #6C63FF;
+
+    box-shadow: 0px 5px 20px #1f1c61;
     border: none;
     border-radius: 12px;
     cursor: pointer;
@@ -234,81 +262,110 @@ body {
 .section-2 {
     width: 100%;
     height: 100vh;
+    padding: 20px;
 }
 
-.sec2-box-1, .sec2-box-2 {
-    color: #fff;
+.sec2-box-1,
+.sec2-box-2 {
     text-align: center;
 }
 
 .sec2-box-1 {
-    font-size: 4rem;    
-    margin-top: 120px;
+    font-size: 4rem;
+    font-weight: 500;
+    color: #6C63FF;
 }
 
 .sec2-box-2 {
-    margin-top: 10px;
-    font-size: 19px;
+    font-size: 24px;
+    color: #111111;
+    margin-top: 20px;
 }
 
-@keyframes slide {
-    from {
-        transform: translateX(0);
-    }
 
-    to {
-        transform: translateX(-100%);
-    }
+/* caixas */
+
+.Container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
 }
 
-.logos {
-    margin-top: 120px;
-    overflow: hidden;
-    padding: 60px 0;
-    background: rgba(0, 0, 0, .1);
-    backdrop-filter: blur(50px);
-    white-space: nowrap;
-    position: relative;
-}
-
-.logos:before,
-.logos:after {
-    position: absolute;
-    top: 0;
-    width: 250px;
-    height: 100%;
-    content: "";
-    z-index: 2;
-}
-
-.logos:before {
-    left: 0;
-    background: linear-gradient(to left, rgba(255,255,255,0), #2d1d62);
-}
-
-.logos:after {
-    right: 0;
-    background: linear-gradient(to right, rgba(255,255,255,0), #2d1d62);
-}
-
-/* .logos:hover .logos-slide {
-    animation-play-state: paused;
-} */
-
-.logos-slide {
-    display: inline-block;
-    animation: 15s slide infinite linear;
-}
-
-.logos-slide img {
-    height: 200px;
-    margin: 0 40px;
+.Container .box {
+    width: 400px;
+    height: 400px;
+    background: rgb(229, 229, 229);
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px 10px #6C63FF;
 }
 
 /* section 3 */
 
-.section-3 {
+.footerContainer {
     width: 100%;
-    height: 50vh;
-    background: linear-gradient(180deg, #8428b3, #210734);
+    height: 40vh;
+    background: #6C63FF;
+    padding: 70px;
+}
+
+.socialIcon {
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcon a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialIcon a i {
+    font-size: 3em;
+    color: black;
+    opacity: 0.9;
+}
+
+.socialIcon a:hover {
+    background-color: #6C63FF;
+    transition: 0.5;
+}
+
+.socialIcon a:hover i {
+    color: white;
+    transition: 0.5;
+}
+
+.footerNav {
+    margin: 30px 0;
+}
+
+.footerNav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.footerNav ul li a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footerNav ul li a:hover {
+    opacity: 1;
+}
+
+.footerBottom {
+    background-color: #1f1c61;
+    padding: 20px;
+    text-align: center;
+}
+
+.footerBottom p {
+    color: white;
 }

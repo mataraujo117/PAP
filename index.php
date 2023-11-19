@@ -7,6 +7,7 @@
     <title>BlueBerryBear</title>
     <link rel="stylesheet" href="./CSS/style.css">
     <script src="https://kit.fontawesome.com/21ee8a4c9a.js" crossorigin="anonymous" defer></script>
+    <script src="/JS/script.js" defer></script>
 </head>
 
 <body>
@@ -17,11 +18,11 @@
             <div class="logo-name">BlueBerryBear</div>
         </div>
         <div class="navbar">
-            <a href="#">Home</a>
-            <a href="#">Moedas</a>
-            <a href="#">Serviços</a>
-            <a href="#">Sobre</a>
-            <a href="#">Contactos</a>
+            <a href="/index.php">Home</a>
+            <a href="/moedas.php">Moedas</a>
+            <a href="/servicos.php">Serviços</a>
+            <a href="/sobre.php">Sobre</a>
+            <a href="/contactos.php">Contactos</a>
         </div>
     </div>
 
@@ -63,22 +64,15 @@
         <div class="sec2-box-1">Portfólios inteligentes</div>
         <div class="sec2-box-2">Com estratégias de investimento temáticas, através de uma exposição diversificada aos segmentos de mercado que moldarão as nossas vidas.</div>
 
-        <div class="logos">
-            <div class="logos-slide">
-                <img src="./img/bitcoin.jpg" alt="">
-                <img src="./img/ethereum.jpg" alt="">
-                <img src="./img/tether.jpg" alt="">
-                <img src="./img/xrp.jpg" alt="">
-                <img src="./img/bnb.jpg" alt="">
-                <img src="./img/dogecoin.jpg" alt="">
+        <div class="Container">
+            <div class="box">
+                Estratégia: Escolha criptomoedas sólidas com fundamentos robustos. Mantenha os ativos mesmo durante períodos de volatilidade e correções de mercado. Esta estratégia é baseada na crença de que, ao longo do tempo, o valor das criptomoedas tende a aumentar devido à adoção mais ampla e ao desenvolvimento contínuo da tecnologia blockchain.
             </div>
-            <div class="logos-slide">
-                <img src="./img/bitcoin.jpg" alt="">
-                <img src="./img/ethereum.jpg" alt="">
-                <img src="./img/tether.jpg" alt="">
-                <img src="./img/xrp.jpg" alt="">
-                <img src="./img/bnb.jpg" alt="">
-                <img src="./img/dogecoin.jpg" alt="">
+            <div class="box">
+                Estratégia: Realize negociações de curto prazo, aproveitando as flutuações de preços ao longo do dia. Isso requer análise técnica, gráficos de preços e acompanhamento constante do mercado. Tenha em mente que o day trading exige um entendimento aprofundado do mercado e habilidades técnicas, e os riscos de perdas também são significativos.
+            </div>
+            <div class="box">
+                Estratégia: Em vez de concentrar seus investimentos em uma única criptomoeda, diversifique em várias altcoins (criptomoedas alternativas ao Bitcoin). Pesquise projetos com fundamentos sólidos e potencial de crescimento. Esteja ciente de que as altcoins podem ser mais voláteis e arriscadas do que o Bitcoin.
             </div>
         </div>
 
@@ -86,14 +80,27 @@
 
     <!-- section 3 -->
 
-    <div class="section-3">
-        <i class="fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-twitter"></i>
-        <i class="fa-brands fa-square-instagram"></i>
-        <i class="fa-brands fa-github"></i>
+    <div class="footerContainer">
+        <div class="socialIcon">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-github"></i></a>
+        </div>
+        <div class="footerNav">
+            <ul>
+                <li> <a href="/index.php">Home</a></li>
+                <li> <a href="/moedas.php">Moedas</a></li>
+                <li> <a href="/servicos.php">Serviços</a></li>
+                <li> <a href="/sobre.php">Sobre</a></li>
+                <li> <a href="/contactos.php">Contactos</a></li>
+            </ul>
+        </div>
     </div>
 
-    <!-- footer  -->
+    <div class="footerBottom">
+        <p>Copyright &copy;2023; Designed by <span class="designer">Mateus</span></p>
+    </div>
 
 </body>
 
