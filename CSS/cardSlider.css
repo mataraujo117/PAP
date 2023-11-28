@@ -1,0 +1,107 @@
+/* .card-slider {
+    width: 100%;
+    height: auto;
+    display: flex;
+    background: linear-gradient(to right, #2b2681, #5952d3);
+    padding: 25px;
+    border-radius: 30px;
+    margin: auto;
+}
+
+.sec2-text {
+    width: 50%;
+    font-size: 22px;
+    text-align: justify;
+    color: #ffffff;
+}
+
+
+.sec2-img {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.sec2-img img {
+    max-width: 60%;
+    display: block;
+    margin: auto;
+}  */
+
+.wrapper {
+    max-width: 1100;
+    width: 100%;
+    position: relative;
+}
+
+.wrapper i {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    font-size: 1.25rem;
+    transform: translateY(-50%);
+    box-shadow: 0px 0px 10px 6px rgba(102, 16, 214, 0.7);
+}
+
+.wrapper i:first-child {
+    left: -22px;
+}
+
+.wrapper i:last-child {
+    right: -22px;
+}
+
+.wrapper .carousel {
+    display: grid;
+    grid-auto-flow: column;
+    color: #ccc;
+ gap: 20px; 
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+.carousel.dragging {
+    scroll-behavior: auto;
+}
+
+.carousel.dragging .card {
+    cursor: grab;
+    user-select: none;
+}
+
+.carousel .card {
+    background: linear-gradient(to right, #2b2681, #5952d3);
+    border-radius: 30px;
+    width: 1200px;
+    height: auto;
+    display: flex;
+    padding: 25px;
+}
+
+.card p {
+    width: 50%;
+    font-size: 22px;
+    text-align: justify;
+    color: #ffffff;
+}
+
+.card .img {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.card .img img {
+    /* width: 140px;
+    height: 140px;
+    object-fit: cover; */
+    max-width: 70%;
+    display: block;
+    margin: auto;
+}

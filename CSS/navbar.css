@@ -7,7 +7,7 @@
     left: 0;
     width: 100%;
     padding: 5px 50px;
-    background: rgba(0, 0, 0, .1);
+    background: rgba(0, 0, 0, .2);
     backdrop-filter: blur(50px);
     display: flex;
     justify-content: space-between;
@@ -33,7 +33,7 @@
     margin-left: 14px;
 }
 
-.navbar a {
+.navbar .decoration{
     position: relative;
     font-size: 18px;
     color: #fff;
@@ -42,7 +42,7 @@
     margin-left: 40px;
 }
 
-.navbar a::before {
+.navbar .decoration::before {
     content: "";
     position: absolute;
     background-color: white;
@@ -54,11 +54,11 @@
     transition: 0.3s;
 }
 
-.navbar a:hover::before {
+.navbar .decoration:hover::before {
     width: 100%;
 }
 
-.navbar a.active::before {
+.navbar .decoration.active::before {
     content: "";
     position: absolute;
     background-color: white;

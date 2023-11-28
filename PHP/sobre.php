@@ -12,8 +12,8 @@
 </head>
 
 <body>
-     <!----------------------------------- Navbar ------------------------------------>
-     <div class="header">
+    <!----------------------------------- Navbar ------------------------------------>
+    <div class="header">
         <!--------------- logo -------------------->
         <div class="logo">
             <img src="../img/bear.png">
@@ -21,11 +21,12 @@
         </div>
         <!---------------- Links ---------------->
         <div class="navbar">
-            <a href="/HTML/index.html">Home</a>
-            <a href="/HTML/moedas.html">Moedas</a>
-            <a href="/HTML/servicos.html">Serviços</a>
-            <a href="/HTML/sobre.html">Sobre</a>
-            <a href="/HTML/contactos.html">Contactos</a>
+            <a href="/PHP/index.php">Home</a>
+            <a href="/PHP/moedas.php">Moedas</a>
+            <a href="/PHP/servicos.php">Serviços</a>
+            <a href="/PHP/sobre.php">Sobre</a>
+            <a href="/PHP/contactos.php">Contactos</a>
+            <a href="/PHP/sign.php">Entrar</a>
         </div>
     </div>
 </body>
