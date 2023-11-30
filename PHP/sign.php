@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BlueBerryBear</title>
     <link rel="stylesheet" href="/CSS/sign.css">
+    <script src="https://kit.fontawesome.com/21ee8a4c9a.js" crossorigin="anonymous" defer></script>
 </head>
 
 <body>
@@ -46,7 +47,29 @@
                         </div>
                     </fieldset>
                 </form>
+                <div class="link-login">
+                    Já tens uma conta! clique para ir à página de <a href="#">Login</a>.
+                </div>
             </div>
+        </div>
+    </div>
+    <div class="footerContainer">
+        <!------------------------ social media icons  ----------------------------->
+        <div class="socialIcon">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-github"></i></a>
+        </div>
+        <!---------------------------- links to next pages -------------------------------->
+        <div class="footerNav">
+            <ul>
+                <li> <a href="/PHP/index.php">Home</a></li>
+                <li> <a href="/PHP/sobre.php">Sobre</a></li>
+            </ul>
+        </div>
+        <div class="footerBottom">
+            <p>Copyright &copy;2023; Criado por <span class="designer">Mateus</span></p>
         </div>
     </div>
 </body>

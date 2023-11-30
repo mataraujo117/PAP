@@ -8,5 +8,87 @@
 }
 
 body {
-    background: #e2e2e2;
+     background: #110E1B; 
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.container {
+    width: 50%;
+    padding: 40px;
+}
+
+.box  {
+    margin-top: 120px;
+    font-size: 33px;
+    font-weight: 700;
+    color: #ccc;
+}
+
+/* footer */
+
+.footerContainer {
+    width: 100%;
+    height: 40vh;
+    background: linear-gradient(to bottom, #6C63FF, #1f1c61);
+    padding: 70px;
+}
+
+.socialIcon {
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcon a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: #1f1c61;
+    margin: 10px;
+    border-radius: 50%;
+    opacity: 0.7;
+}
+
+.socialIcon a:hover {
+    opacity: 1;
+}
+
+.socialIcon a i {
+    font-size: 3em;
+    color: rgb(255, 255, 255);
+    opacity: 0.9;
+}
+
+.footerNav {
+    margin: 30px 0;
+}
+
+.footerNav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.footerNav ul li a {
+    color: rgb(255, 255, 255);
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footerNav ul li a:hover {
+    opacity: 1;
+}
+
+.footerBottom {
+    text-align: center;
+}
+
+.footerBottom p {
+    color: rgb(255, 255, 255);
 }
