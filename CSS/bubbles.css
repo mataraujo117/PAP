@@ -8,6 +8,8 @@
     height: 100%;
     overflow: hidden;
     pointer-events: none;
+    z-index: 1;
+    /* Z-index menor para as bolhas */
 }
 
 
@@ -34,6 +36,7 @@
     background: rgba(255, 255, 255, 0.2);
     bottom: -150px;
     animation: animate 25s linear infinite;
+    z-index: 0;
 }
 
 .circles div:nth-child(1) {
