@@ -40,7 +40,7 @@
                         <input type="tel" name="telefone" id="telefone" class="user" pattern="[0-9]{3}[0-9]{3}[0-9]{3}" placeholder="000-000-000">
                         <!-- Condições e Termos -->
                         <label id="checkbox-lbl">
-                            <input type="checkbox" required checked>Eu concordo com as condições e os termos de uso.</label>
+                            <input type="checkbox" required checked>Eu concordo com as <a href="#">condições e os termos de uso</a>.</label>
                         <!-- Botao para enviar -->
                         <div class="btn-submit">
                             <input type="submit" value="Enviar">
@@ -48,7 +48,7 @@
                     </fieldset>
                 </form>
                 <div class="link-login">
-                    Já tens uma conta! clique para ir à página de <a href="#">Login</a>.
+                    Já tens uma conta! clique para ir à página de <a href="/PHP/login.php">Login</a>.
                 </div>
             </div>
         </div>
