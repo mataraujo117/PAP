@@ -27,7 +27,7 @@
         <div class="navbar">
             <a class="decoration" href="/PHP/index.php">Home</a>
             <a class="decoration" href="/PHP/sobre.php">Sobre</a>
-            <a class="decoration" href="/PHP/sign.php">Entrar</a>
+            <a class="decoration" href="/PHP/login.php">Entrar</a>
         </div>
     </div>
 
@@ -119,10 +119,10 @@
     <div class="footerContainer">
         <!------------------------ social media icons  ----------------------------->
         <div class="socialIcon">
-            <a href=""><i class="fa-brands fa-facebook"></i></a>
-            <a href=""><i class="fa-brands fa-twitter"></i></a>
-            <a href=""><i class="fa-brands fa-instagram"></i></a>
-            <a href=""><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.facebook.com/?locale=pt_PT" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://twitter.com/?lang=pt"  target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/"  target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/"  target="_blank"><i class="fa-brands fa-github"></i></a>
         </div>
         <!---------------------------- links to next pages -------------------------------->
         <div class="footerNav">
@@ -137,7 +137,7 @@
     </div>
     <script>
         document.getElementById('btn-investir-id').addEventListener('click', () => {
-            window.location.href = '/PHP/sign.php';
+            window.open('/PHP/sign.php', '_blank');
         });
     </script>
 
